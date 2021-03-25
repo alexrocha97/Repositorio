@@ -14,7 +14,7 @@ nov1 = 60 - idade
 nov2 = 65 - idade
 print('-==-'*18)
 if sexo == 'masculino' and idade >= 65: # calculo masculino
-	print(nome,'sua aposentadoria foi liberada no valor R$',mas)
+	print(nome,'sua aposentadoria foi liberada no valor R$ {}'.format(mas))
 if sexo == 'feminino' and idade >= 60:
 	print(nome,'sua aposentadoria foi liberada no valor R$',fem)
 if idade < 60 and sexo == 'feminino':
